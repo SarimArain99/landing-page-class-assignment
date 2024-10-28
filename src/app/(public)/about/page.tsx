@@ -1,5 +1,6 @@
 import Contact from "@/app/components/Contact";
 import Info from "@/app/components/Info";
+import Image from "next/image";
 import React from "react";
 
 function Page() {
@@ -24,15 +25,17 @@ function Page() {
           </h2>
         </div>
         <div className="flex justify-center lg:w-1/2">
-          <img
-            src="sarim3.jpg"
+          <Image
+            width={1000}
+            height={1000}
+            src="/sarim3.jpg"
             alt="Sarim"
             className="h-72 w-72 sm:h-80 sm:w-80 lg:h-96 lg:w-96 object-cover rounded-md shadow-md"
           />
         </div>
       </div>
-      <Info/>
-      <Contact/>
+      <Info />
+      <Contact />
     </div>
   );
 }

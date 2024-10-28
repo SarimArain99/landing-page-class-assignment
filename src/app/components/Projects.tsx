@@ -56,7 +56,7 @@ function Projects() {
           </p>
           <p className="lg:w-96">
             Users can browse different collections, view artwork details, and
-            even "like" or comment on pieces. Using Next.js and Framer Motion
+            even &qout;like&quot; or comment on pieces. Using Next.js and Framer Motion
             for animations.
           </p>
         </span>
