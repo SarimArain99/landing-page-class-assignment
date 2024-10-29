@@ -5,7 +5,7 @@ import React from "react";
 
 function Page() {
   return (
-    <div className="lg:pt-40 md:pt-20 pt-28 lg:px-48 md:px-20 sm: px-10">
+    <div className="lg:pt-40 md:pt-24 pt-28 lg:px-48 md:px-20 sm: px-10">
       <div className="flex items-center justify-between lg:flex-row flex-col gap-x-20 gap-y-8">
         <div className="flex flex-col gap-y-4 md:gap-y-8 lg:w-1/2 text-center lg:text-left">
           <h1 className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl">
